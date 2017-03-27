@@ -233,10 +233,10 @@ def usage():
     print "-s                              - simulate and print to screen"
     print "--simulate=simulation_file      - simulate and output simulation to file"
     print "Examples: "
-    print "python MIPSsim.py -b \"sample.txt\" -d"
-    print "python MIPSsim.py --binary=\"sample.txt\" --disassemble=\"disassembly.txt\""
-    print "python MIPSsim.py -b \"sample.txt\" --simulate=\"simulation.txt\""
-    print "python MIPSsim.py -b \"sample.txt\" -d -s"
+    print "python MIPSsim.py -b sample.txt -d"
+    print "python MIPSsim.py --binary=sample.txt --disassemble=disassembly.txt"
+    print "python MIPSsim.py -b sample.txt --simulate=simulation.txt"
+    print "python MIPSsim.py -b sample.txt -d -s"
     sys.exit(0)
 
 if __name__ == '__main__':
